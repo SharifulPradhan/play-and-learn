@@ -30,11 +30,12 @@
 
 
 
-### tools
-Visual studio code
-pixlr.com // for design images. I edited this image
+### Tools I used
+- Visual studio code
+- pixlr.com // for design images. I edited this image
 ![](/assets/images/vission-mission-image.png)
-
+- Firefox developer tool
+- 
 
 
 ### Attributes
