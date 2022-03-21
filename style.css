@@ -12,3 +12,24 @@ Colors
 --celadon: #ace4aaff;
 --almond: #e1cdb5ff;
 ------------------------------------*/
+
+
+/* Global
+------------------------------------*/
+img {
+  width: 300px;
+}
+
+*, 
+*::before, 
+*::after {
+  margin: 0;
+  padding: 0;
+  border: none;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+
+
