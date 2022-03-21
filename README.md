@@ -4,9 +4,11 @@
 ## summary
 
 :hash:About the project:arrow_down:
+
 This is a practice project of my frontend development practice project series. Where I want to gain more experience in Website Design. While doing this project I have learned and gained some clear thoughts about CSS position property, CSS content properties and also sharpen my knowledge of Responsive Website Designing.
 
 :hash:About the website:arrow_down:
+
 This is basically a school website where schools can use it as their portfolio and sell their school programs and clients can get an overview of the school and book a class for their child.
 
 ## Table of contents
