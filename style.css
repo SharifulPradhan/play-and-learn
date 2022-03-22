@@ -1,23 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;600&family=Grand+Hotel&display=swap');
 
-/* Font Families 
-font-family: 'Dosis', sans-serif; // for paragraph text
-font-family: 'Grand Hotel', cursive; // for header text
+:root {
+  /* color palette */
+  --cyber-grape: #49306bff;
+  --cyber-grape-2: #635380ff;
+  --mountbatten-pink: #90708cff;
+  --celadon: #ace4aaff;
+  --almond: #e1cdb5ff;
+  --link-bg: #FF6666;
+  --link-text: #fff;
 
-_____________________________________
-Colors
---cyber-grape: #49306bff;
---cyber-grape-2: #635380ff;
---mountbatten-pink: #90708cff;
---celadon: #ace4aaff;
---almond: #e1cdb5ff;
-------------------------------------*/
 
+  /* Font Families */
+  --body-text: 'Dosis', sans-serif;
+  --h1-ff: 'Grand Hotel', cursive;
+}
 
 /* Global
 ------------------------------------*/
 img {
   width: 300px;
+}
+
+svg {
+  width: 10px;
 }
 
 *, 
@@ -31,5 +37,127 @@ img {
   box-sizing: border-box;
 }
 
+body {
+  font-family: var(--body-text);
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+h1 {
+  font-family: var(--h1-ff);
+  font-weight: 400;
+  font-size: 3rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+h1, h2 {
+  color: var(--cyber-grape);
+}
+
+a {
+  margin-top: 1em;
+  color: var(--link-text);
+  display: inline-block;
+  padding: 0.3em 1em;
+  border-radius: 1rem;
+  background-color: var(--link-bg);
+}
+
+a:hover {
+  background-color: var(--cyber-grape);
+  color: var(--link-text);
+  transition: background-color ease-out 1s;
+}
+
+.container {
+  margin: 0 auto;
+  width: 90vw;
+  max-width: 1100px;
+  padding: 1em 0;
+}
 
 
+/* Navigation bar
+------------------------------------*/
+nav {
+  /* background: lightseagreen; */
+  background-color: #fff;
+  position: sticky;
+  top: 0;
+  padding: 1rem 0;
+  z-index: 1;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .brand {
+  font-size: 2.5rem;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul li a {
+  color: var(--cyber-grape);
+  display: block;
+  padding: 0.2em 1em;
+  border-radius: 1rem;
+  transform: scale(1,1);
+  background-color: #fff;
+}
+
+nav ul li a:hover {
+  background: var(--mountbatten-pink);
+  color: var(--link-text);
+  transform: scale(1,1.1);
+  transition: transform ease-out 250ms;
+}
+
+
+/* Header
+------------------------------------*/
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.hero-left {
+  margin: 0 auto;
+  max-width: 50%;
+}
+
+.hero-right {
+  margin: 0 auto;
+  
+  object-fit: cover;
+  position: relative;
+}
+
+.hero-right img {
+  height: 100%;
+  display: block;
+  z-index: -1;
+  border-radius: .5em;
+}
+
+.hero-right .img-bg {
+  height: 372px;
+  width: 100%;
+  background: linear-gradient(18deg, #49728D, #815F46);
+  position: absolute;
+  top: 2em;
+  left: 2em;
+  z-index: -2;
+  border-radius: .5em;
+}
