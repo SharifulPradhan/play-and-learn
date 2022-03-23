@@ -7,7 +7,7 @@
   --mountbatten-pink: #90708cff;
   --celadon: #ace4aaff;
   --almond: #e1cdb5ff;
-  --link-bg: #FF6666;
+  --bg-brand: #FF6666;
   --link-text: #fff;
 
 
@@ -63,7 +63,7 @@ a {
   display: inline-block;
   padding: 0.3em 1em;
   border-radius: 1rem;
-  background-color: var(--link-bg);
+  background-color: var(--bg-brand);
 }
 
 a:hover {
