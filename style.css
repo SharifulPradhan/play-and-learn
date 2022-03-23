@@ -141,7 +141,6 @@ nav ul li a:hover {
 
 .hero-right {
   margin: 0 auto;
-  
   object-fit: cover;
   position: relative;
 }
@@ -156,7 +155,7 @@ nav ul li a:hover {
 .hero-right .img-bg {
   height: 372px;
   width: 100%;
-  background: linear-gradient(18deg, #49728D, #815F46);
+  background: linear-gradient(18deg, #49728D, #A4AAA5);
   position: absolute;
   top: 2em;
   left: 2em;
