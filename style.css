@@ -75,19 +75,28 @@ a:hover {
 .container {
   margin: 0 auto;
   width: 90vw;
-  max-width: 1100px;
+  max-width: 1170px;
   padding: 1em 0;
 }
 
+/* delete this styles after completed the project */
+.bg-test1 {
+  background: lime;
+}
 
+.bg-test2 {
+  background: lightseagreen;
+}
+
+.bg-test3 {
+  background: lightgray;
+}
 /* Navigation bar
 ------------------------------------*/
 nav {
-  /* background: lightseagreen; */
   background-color: #fff;
   position: sticky;
   top: 0;
-  padding: 1rem 0;
   z-index: 1;
 }
 
@@ -95,6 +104,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 nav .brand {
@@ -105,17 +115,16 @@ nav .brand {
 
 nav ul {
   display: flex;
-  justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 nav ul li a {
   color: var(--cyber-grape);
   display: block;
-  padding: 0.2em 1em;
-  border-radius: 1rem;
   transform: scale(1,1);
   background-color: #fff;
+  margin: 0 .1em;
 }
 
 nav ul li a:hover {
@@ -128,32 +137,42 @@ nav ul li a:hover {
 
 /* Header
 ------------------------------------*/
+header {
+  position: relative;
+  z-index: -3;
+}
+
 .hero {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 2fr 1fr;
   align-items: center;
+  min-height: 750px;
 }
 
 .hero-left {
   margin: 0 auto;
-  max-width: 50%;
+  padding: 4em;
+}
+
+.hero-left h1 {
+  font-size: 4em;
 }
 
 .hero-right {
-  margin: 0 auto;
-  object-fit: cover;
   position: relative;
 }
 
 .hero-right img {
-  height: 100%;
+  position: relative;
+  height: 480px;
+  width: 100%;
   display: block;
   z-index: -1;
   border-radius: .5em;
 }
 
 .hero-right .img-bg {
-  height: 372px;
+  height: 480px;
   width: 100%;
   background: linear-gradient(18deg, #49728D, #A4AAA5);
   position: absolute;

@@ -52,7 +52,7 @@ This is basically a school website where schools can use it as their portfolio a
 ## Asset Links
 
 ### Fonts
-<a href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;600&family=Grand+Hotel&display=swap">
+<a href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;600&family=Grand+Hotel&display=swap">Dosis</a>
 
 ### Images and SVGs
 <a href="https://www.freepik.com/photos/students-classroom">Students in classroom photo created by rawpixel.com - www.freepik.com</a>
