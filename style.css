@@ -22,9 +22,6 @@ img {
   width: 300px;
 }
 
-svg {
-  width: 10px;
-}
 
 *, 
 *::before, 
@@ -135,12 +132,69 @@ nav ul li a:hover {
 }
 
 
+
 /* Header
 ------------------------------------*/
 header {
   position: relative;
   z-index: -3;
 }
+
+#header-bg {
+  position: absolute;
+  z-index: -2;
+}
+
+/* Header background animation START*/
+#ball {
+  animation: rotating 1s linear 250ms infinite reverse;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+@keyframes rotating {
+  0% {transform: translateY(0%,0%);}
+  50% {transform: translateY(30%,40%);}
+  100% {transform: translateY(50%,80%);}
+}
+
+
+#girl {
+  animation: girl-move 1s linear 250ms infinite alternate;
+}
+
+@keyframes girl-move {
+  to {transform: translateY(0%);}
+  from {transform: translateY(5%);}
+}
+
+#boy {
+  animation: boy-move 1s linear 500ms infinite alternate;
+}
+
+@keyframes boy-move {
+  to {transform: translateY(0%);}
+  from {transform: translateY(5%);}
+}
+
+#leafs {
+  animation: leafs-move 1s linear 500ms infinite alternate;
+}
+
+@keyframes leafs-move {
+  to {transform: translateX(0%);}
+  from {transform: translateX(1%);}
+}
+
+#orranges {
+  animation: orranges-smove 1s linear 500ms infinite alternate;
+}
+
+@keyframes orranges-smove {
+  to {transform: skewX(0%);}
+  from {transform: skewX(3deg);}
+}
+/* Header background animation END*/
 
 .hero {
   display: grid;
@@ -151,12 +205,19 @@ header {
 
 .hero-left {
   margin: 0 auto;
-  padding: 4em;
+  line-height: 1.6;
+  max-width: 500px;
+  padding: 20px;
+  border-radius: 8px;
+  background: #ebd3d3c2;
+  backdrop-filter: blur(8px);
 }
 
 .hero-left h1 {
   font-size: 4em;
-}
+  line-height: 1.1;
+  margin-bottom: .5em;
+}  
 
 .hero-right {
   position: relative;
