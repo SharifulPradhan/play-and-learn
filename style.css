@@ -200,23 +200,25 @@ header {
   display: grid;
   grid-template-columns: 2fr 1fr;
   align-items: center;
-  min-height: 750px;
+  height: 750px;
 }
 
 .hero-left {
   margin: 0 auto;
   line-height: 1.6;
   max-width: 500px;
-  padding: 20px;
-  border-radius: 8px;
-  background: #ebd3d3c2;
-  backdrop-filter: blur(8px);
+  padding: 1em;
+  overflow: hidden;
+  background: rgba(224, 192, 192, 0.7);
+  border-radius: .5em;
 }
+
+
 
 .hero-left h1 {
   font-size: 4em;
   line-height: 1.1;
-  margin-bottom: .5em;
+  margin-bottom: .2em;
 }  
 
 .hero-right {
@@ -241,4 +243,27 @@ header {
   left: 2em;
   z-index: -2;
   border-radius: .5em;
+}
+
+
+/* Making it Responsive */
+
+@media screen and (max-width: 800px) {
+  body {
+    /* background: yellow; */
+  }
+
+  .hero {
+    display: block;
+    height: 600px;
+    }
+
+  .hero-right {
+    display: none;
+  }
+
+  #header-bg {
+    position: relative;
+  }
+  
 }
