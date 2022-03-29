@@ -246,11 +246,22 @@ header {
 }
 
 
+/* Why us? section
+------------------------------------*/
+.features-container {
+  margin-top: 1em;
+  display: flex;
+}
+
+.features-container img {
+  width: 200px;
+}
+
 /* Making it Responsive */
 
-@media screen and (max-width: 800px) {
-  body {
-    /* background: yellow; */
+@media screen and (max-width: 556px) {
+  nav .brand {
+    margin: 0 auto;
   }
 
   .hero {
@@ -265,5 +276,21 @@ header {
   #header-bg {
     position: relative;
   }
-  
+}
+
+@media screen and (min-width: 557px) and (max-width: 878px) {
+
+  nav .brand {
+    margin: 0 auto;
+  }
+
+  .hero {
+    height: 500px;
+    display: block;
+  }
+
+  .hero-right {
+    display: none;
+  }
+
 }
