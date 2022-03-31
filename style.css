@@ -10,6 +10,7 @@
   --text-brand: #FF6666;
   --bg-brand: #FF6666;
   --link-text: #fff;
+  --text-gray: rgb(106, 106, 106);
 
 
   /* Font Families */
@@ -51,7 +52,7 @@ h4 {
   font-size: 1.5rem;
 }
 
-h1, h2 {
+h1, h2, h3 {
   color: var(--cyber-grape);
 }
 
@@ -92,6 +93,18 @@ a:hover {
   font-size: 0.9em;
   padding-bottom: 1em;
 }
+
+.highlights img {
+  width: 50px;
+  animation: car linear 3s infinite alternate;
+}
+
+@keyframes car {
+  to {transform: translateX(-300%);}
+  from {transform: translateX(300%);}
+}
+
+
 
 /* delete this styles after completed the project */
 .bg-test1 {
@@ -325,6 +338,60 @@ header {
 
 /* Enrollment 
 -----------------------------------*/
+.enrollment {
+  margin: 2em 0;
+  padding: 2em 0;
+  background: var(--mountbatten-pink);
+  color: #fff;
+}
+
+.enrollment h1 {
+  color: #fff;
+}
+
+.enrollment-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+/* Goals Section
+-----------------------------------*/
+.goals-content {
+  display: flex;
+  justify-content: space-between;
+  color: var(--text-gray);
+}
+
+.goals-content img{
+  width: 25em;
+  animation: image-move 3s linear 500ms infinite alternate;
+}
+
+@keyframes image-move {
+  to {transform: translateX(0%);}
+  from {transform: translateX(10%);}
+}
+
+.vision-mission-right {
+  width: 25em;
+  line-height: 1.6;
+  
+}
+
+.vision-mission-right h2 {
+  font-size: 2em;
+  font-weight: 900;
+}
+
+.vission-and-mission {
+  display: flex;
+  margin: 1em 0;
+}
+
+/* Programs Section
+-----------------------------------*/
+
 
 
 /* Making it Responsive 
