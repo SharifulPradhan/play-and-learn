@@ -277,6 +277,10 @@ header {
 
 /* Why us? section
 ------------------------------------*/
+#why-us {
+  margin: 2em 0;
+}
+
 .features-container {
   margin-top: 1em;
   display: flex;
@@ -357,6 +361,10 @@ header {
 
 /* Goals Section
 -----------------------------------*/
+#goals {
+  margin: 2em 0;
+}
+
 .goals-content {
   display: flex;
   justify-content: space-between;
@@ -391,9 +399,60 @@ header {
 
 /* Programs Section
 -----------------------------------*/
+#programs {
+  margin: 2em 0;
+}
 
+.programs-container {
+  display: flex;
+  background: #856a563a;
+}
 
+.programs-left {
+  width: 800px;
+  height: 600px;
+  overflow: hidden;
+}
 
+.programs-left img {
+  width: 100%;
+  height: 100%;
+}
+
+.programs-right {
+  width: 50em;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 2em;
+  margin-left: 2em;
+  overflow: hidden;
+}
+
+.programs-right img {
+  width: 4em;
+  margin-right: 1em;
+}
+
+.programs-right .program-body {
+  width: 20em;
+  display: flex;
+  align-items: center;
+}
+
+.program-body h4 {
+  color: var(--text-brand);
+}
+
+.program-body h4:hover {
+  color: var(--cyber-grape);
+  cursor: pointer;
+}
+
+/* Classes Section
+-----------------------------------*/
+#classes {
+  margin: 2em 0;
+}
 /* Making it Responsive 
 -----------------------------------*/
 
@@ -414,6 +473,16 @@ header {
   #header-bg {
     position: relative;
   }
+
+  .programs-left {
+    display: none;
+  }
+
+  .programs-right {
+    display: grid;
+    grid-template-columns: 1fr;
+    place-content: center;
+  }
 }
 
 @media screen and (min-width: 557px) and (max-width: 878px) {
@@ -431,4 +500,7 @@ header {
     display: none;
   }
 
+  .programs-left {
+    display: none;
+  }
 }
