@@ -426,6 +426,7 @@ header {
   padding: 2em;
   margin-left: 2em;
   overflow: hidden;
+  padding: 1em;
 }
 
 .programs-right img {
@@ -452,6 +453,24 @@ header {
 -----------------------------------*/
 #classes {
   margin: 2em 0;
+}
+
+.classes-container  {
+  margin-top: 1em;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+
+.classes-card-body {
+  width: 18em;
+  overflow: hidden;
+  border-radius: 1.5em;
+}
+
+.classes-card-body img{
+  width: 100%;
 }
 /* Making it Responsive 
 -----------------------------------*/
@@ -482,6 +501,11 @@ header {
     display: grid;
     grid-template-columns: 1fr;
     place-content: center;
+  }
+
+  .program-body {
+    margin-top: 1em;
+    padding-right: 1em;
   }
 }
 
