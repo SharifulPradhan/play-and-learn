@@ -24,7 +24,6 @@ img {
   width: 300px;
 }
 
-
 *, 
 *::before, 
 *::after {
@@ -470,6 +469,12 @@ header {
   border-radius: 1.5em;
   text-align: center;
   box-shadow: 3px 8px 5px 0px rgba(143,133,133,0.75);
+  transition: transform ease-in 250ms;
+}
+
+.classes-card-body:hover {
+  transform: rotate(2deg);
+  cursor: pointer;
 }
 
 .classes-card-body img{
@@ -497,6 +502,124 @@ header {
   color: var(--text-brand);
   font-weight: bolder;
 }
+
+/* Review Section
+-----------------------------------*/
+#reviews {
+  margin: 1em 0;
+}
+
+.review-wrapper {
+  margin: 2em 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.review-card {
+  margin-top: 1em;
+  width: 30rem;
+  transition: transform ease-in 500ms;
+}
+
+.review-card:hover {
+  transform: translateY(-10%);
+  cursor: pointer;
+}
+
+.review-card p {
+  margin-top: .5em;
+  font-style: italic;
+  color: var(--text-gray);
+  font-size: .9em;
+}
+
+.parents {
+  display: flex;
+  align-items: center;
+  gap: .8em;
+}
+
+.parents figure {
+  width: 100px;
+  border-radius: 50%;
+  background: #fff;
+  border: 2px solid var(--bg-brand);
+  overflow: hidden;
+  position: relative;
+}
+
+.parents img{
+  width: 100%;
+  border-radius: 50%;
+  position: relative;
+  bottom: -10px;
+}
+
+.parents h4 {
+  color: var(--cyber-grape);
+}
+
+/* Our Teachers Section  
+-----------------------------------*/
+#teachers {
+  margin: 1em 0;
+}
+
+.teachers-profiles {
+  margin-top: 1em;
+  display: flex;
+  gap: 1em;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-wrapper {
+  padding: 1.2em 0;
+  width: 18em;
+  text-align: center;
+  border-radius: 1rem;
+  box-shadow: 0px 2px 10px 6px rgba(153,153,153,0.75);
+  transition: transform ease-in 250ms;
+}
+
+.profile-wrapper:hover {
+  cursor: pointer;
+  transform: translateY(-5%);
+}
+
+.profile-wrapper p {
+  color: var(--text-gray);
+}
+
+.profile-wrapper .socials {
+  margin-top: .7em;
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+}
+
+.teacher-image {
+  position: relative;
+}
+
+.teacher-image::after {
+  content: "";
+  width: 100%;
+  height: 100px;
+  border-bottom: 15px dotted #fff;
+  stroke-width: 5;
+  display: block;
+  /* background: white; */
+  position: absolute;
+  bottom: -.5%;
+}
+
+.profile-wrapper .socials img{
+  width: 25px;
+}
+
+
 /* Making it Responsive 
 -----------------------------------*/
 
