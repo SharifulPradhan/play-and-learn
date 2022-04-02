@@ -103,8 +103,6 @@ a:hover {
   from {transform: translateX(300%);}
 }
 
-
-
 .socials img{
   width: 25px;
 }
@@ -164,7 +162,6 @@ nav ul li a:hover {
   transform: scale(1,1.1);
   transition: transform ease-out 250ms;
 }
-
 
 
 /* Header
@@ -292,6 +289,7 @@ header {
 }
 
 .card-body {
+  margin: 1em 0;
   text-align: center;
   width: 14.3em;
   overflow: hidden;
@@ -359,6 +357,7 @@ header {
 .enrollment-content {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 
@@ -371,6 +370,7 @@ header {
 .goals-content {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   color: var(--text-gray);
 }
 
@@ -387,7 +387,6 @@ header {
 .vision-mission-right {
   width: 25em;
   line-height: 1.6;
-  
 }
 
 .vision-mission-right h2 {
@@ -395,9 +394,14 @@ header {
   font-weight: 900;
 }
 
-.vission-and-mission {
+.vision-and-mission {
   display: flex;
+  flex-wrap: wrap;
   margin: 1em 0;
+}
+
+.vision, .mission  {
+  margin-top: 1em;
 }
 
 /* Programs Section
@@ -406,29 +410,27 @@ header {
   margin: 2em 0;
 }
 
-.programs-container {
+.programs-wrapper {
   display: flex;
-  background: #856a563a;
+  background: #d0bbaa3a;
 }
 
 .programs-left {
-  width: 800px;
+  position: relative;
+  width: 900px;
   height: 600px;
-  overflow: hidden;
 }
 
 .programs-left img {
   width: 100%;
   height: 100%;
+  position: absolute;
 }
 
 .programs-right {
   width: 50em;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding: 2em;
-  margin-left: 2em;
-  overflow: hidden;
   padding: 1em;
 }
 
@@ -521,7 +523,6 @@ header {
 }
 
 .review-card {
-  margin-top: 1em;
   width: 30rem;
   transition: transform ease-in 500ms;
 }
@@ -576,6 +577,7 @@ header {
   gap: 1em;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .profile-wrapper {
@@ -628,7 +630,11 @@ header {
   padding-top: 1.5rem;
 }
 
-#contacts h1, h2 {
+footer h1 {
+  color: #fff;
+}
+
+footer h2 {
   color: #fff;
 }
 
@@ -637,6 +643,7 @@ header {
   justify-content: center;
   grid-template-columns: repeat(4, 1fr);
   gap: 1em;
+
 }
 
 .brand h1 {
@@ -682,6 +689,7 @@ header {
 }
 
 .newsletter p {
+  margin-top: 1em;
   font-size: .8em;
 }
 
@@ -703,6 +711,10 @@ header {
     margin: 0 auto;
   }
 
+  nav ul li a {
+    transform: scale(.7,.7);
+  }
+
   .hero {
     display: block;
     height: 600px;
@@ -716,23 +728,59 @@ header {
     position: relative;
   }
 
+  .enrollment-content h1 {
+    line-height: 1.3;
+  }
+
+  .goals-content img{
+    width: 20em;
+    animation: image-move 3s linear 500ms infinite alternate;
+  }
+  
+  @keyframes image-move {
+    to {transform: rotate(0deg);}
+    from {transform: rotate(10deg);}
+  }
+
+  .vision-mission-right h2 {
+    margin-top: 1em;
+    font-size: 1.5em;
+  }
+
   .programs-left {
     display: none;
   }
 
   .programs-right {
+    width: 100%;
     display: grid;
     grid-template-columns: 1fr;
-    place-content: center;
+    font-size: .8em;
+  }
+
+  .program-body h4 {
+    font-size: 1.3em;
   }
 
   .program-body {
-    margin-top: 1em;
-    padding-right: 1em;
+    margin: .5em auto;
   }
 
   .classes-card-body {
     margin-top: 1rem;
+    transform: scale(.9);
+  }
+
+  .review-card {
+    margin-top: 2em;
+  }
+
+  .profile-wrapper {
+    transform: scale(.9);
+  }
+
+  .footer-nav {
+    grid-template-columns: 1fr
   }
 }
 
