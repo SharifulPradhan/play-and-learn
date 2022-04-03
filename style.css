@@ -19,7 +19,7 @@
 }
 
 /* Global
-------------------------------------*/
+-------------------------------------------------------*/
 img {
   width: 300px;
 }
@@ -75,7 +75,6 @@ a:hover {
   width: 90vw;
   max-width: 1170px;
   padding: 1em 0;
-  overflow: hidden;
 }
 
 .highlights {
@@ -96,10 +95,10 @@ a:hover {
 
 .highlights img {
   width: 50px;
-  animation: car linear 3s infinite alternate;
+  animation: driving linear 3s infinite alternate;
 }
 
-@keyframes car {
+@keyframes driving {
   to {transform: translateX(-300%);}
   from {transform: translateX(300%);}
 }
@@ -127,7 +126,7 @@ a:hover {
 }
 
 /* Navigation bar
-------------------------------------*/
+-------------------------------------------------------*/
 nav {
   background-color: #fff;
   position: sticky;
@@ -171,67 +170,16 @@ nav ul li a:hover {
 
 
 /* Header
-------------------------------------*/
+-------------------------------------------------------*/
 header {
   position: relative;
   z-index: -3;
+  background: gray;
 }
 
-#header-bg {
-  position: absolute;
-  z-index: -2;
+#mobile-hero-image {
+  display: none;
 }
-
-/* Header background animation START*/
-#ball {
-  animation: rotating 1s linear 250ms infinite reverse;
-  transform-origin: center;
-  transform-box: fill-box;
-}
-
-@keyframes rotating {
-  0% {transform: translateY(0%,0%);}
-  50% {transform: translateY(30%,40%);}
-  100% {transform: translateY(50%,80%);}
-}
-
-
-#girl {
-  animation: girl-move 1s linear 250ms infinite alternate;
-}
-
-@keyframes girl-move {
-  to {transform: translateY(0%);}
-  from {transform: translateY(5%);}
-}
-
-#boy {
-  animation: boy-move 1s linear 500ms infinite alternate;
-}
-
-@keyframes boy-move {
-  to {transform: translateY(0%);}
-  from {transform: translateY(5%);}
-}
-
-#leafs {
-  animation: leafs-move 1s linear 500ms infinite alternate;
-}
-
-@keyframes leafs-move {
-  to {transform: translateX(0%);}
-  from {transform: translateX(1%);}
-}
-
-#orranges {
-  animation: orranges-smove 1s linear 500ms infinite alternate;
-}
-
-@keyframes orranges-smove {
-  to {transform: skewX(0%);}
-  from {transform: skewX(3deg);}
-}
-/* Header background animation END*/
 
 .hero {
   display: grid;
@@ -282,7 +230,7 @@ header {
 
 
 /* Why us? section
-------------------------------------*/
+-------------------------------------------------------*/
 #why-us {
   margin: 2em 0;
 }
@@ -349,7 +297,7 @@ header {
 }
 
 /* Enrollment 
------------------------------------*/
+-------------------------------------------------------*/
 .enrollment {
   margin: 2em 0;
   padding: 2em 0;
@@ -369,7 +317,7 @@ header {
 
 
 /* Goals Section
------------------------------------*/
+-------------------------------------------------------*/
 #goals {
   margin: 2em 0;
 }
@@ -418,7 +366,7 @@ header {
 }
 
 /* Programs Section
------------------------------------*/
+-------------------------------------------------------*/
 #programs {
   margin: 2em 0;
 }
@@ -468,7 +416,7 @@ header {
 }
 
 /* Classes Section
------------------------------------*/
+-------------------------------------------------------*/
 #classes {
   margin: 2em 0;
 }
@@ -523,7 +471,7 @@ header {
 }
 
 /* Review Section
------------------------------------*/
+-------------------------------------------------------*/
 #reviews {
   margin: 1em 0;
 }
@@ -579,7 +527,7 @@ header {
 }
 
 /* Our Teachers Section  
------------------------------------*/
+-------------------------------------------------------*/
 #teachers {
   margin: 1em 0;
 }
@@ -636,7 +584,7 @@ header {
 
 
 /* Contact Section / Footer 
------------------------------------*/
+-------------------------------------------------------*/
 #contacts {
   background: var(--cyber-grape);
   color: #fff;
@@ -656,7 +604,6 @@ footer h2 {
   justify-content: center;
   grid-template-columns: repeat(4, 1fr);
   gap: 1em;
-
 }
 
 .brand h1 {
@@ -696,11 +643,6 @@ footer h2 {
   color: var(--text-brand);
 }
 
-.copyright {
-  font-size: .8em;
-  text-align: center;
-}
-
 .newsletter p {
   margin-top: 1em;
   font-size: .8em;
@@ -713,17 +655,30 @@ footer h2 {
   border-radius: 1em;
 }
 
+.copyright {
+  font-size: .8em;
+  text-align: center;
+  border-top: 1px solid rgb(255, 255, 255);
+}
+
 .copyright span {
   color: var(--text-brand);
 }
+
 /* Making it Responsive 
------------------------------------*/
+-------------------------------------------------------*/
 
 @media screen and (max-width: 556px) {
+  .container {
+    overflow: hidden;
+  }
+  
+  /* navigation menu */
   nav {
     position: relative;
   }
 
+  /* hero section */
   .hero {
     display: block;
     height: 600px;
@@ -733,14 +688,63 @@ footer h2 {
     display: none;
   }
 
-  #header-bg {
+  #mobile-hero-image {
+    display: block;
     position: relative;
   }
 
+  /* Mobile Hero Image animation START*/
+  #ball {
+    animation: rotating 1s linear 250ms infinite reverse;
+    transform-origin: center;
+    transform-box: fill-box;
+  }
+
+  @keyframes rotating {
+    50% {transform: translateY(30%,40%);}
+    100% {transform: translateY(50%,80%);}
+  }
+
+  #girl {
+    animation: girl-move 2s linear 250ms infinite alternate;
+  }
+
+  @keyframes girl-move {
+    from {transform: translateY(5%);}
+  }
+
+  #boy {
+    animation: boy-move 2s linear 500ms infinite alternate;
+  }
+
+  @keyframes boy-move {
+    from {transform: translateY(5%);}
+  }
+
+  #leafs {
+    animation: leafs-move 1s linear 500ms infinite alternate;
+  }
+
+  @keyframes leafs-move {
+    from {transform: translateX(1%);}
+  }
+
+  #orranges {
+    animation: orranges-smove 1s linear 500ms infinite alternate;
+  }
+
+  @keyframes orranges-smove {
+    from {transform: skewX(3deg);}
+  }
+  /* Mobile Hero Image animation END*/
+
+  
+  /* enrollment message */
   .enrollment-content h1 {
     line-height: 1.3;
   }
-
+  
+  /* goals section */
   .goals-content {
     display: block;
   }
@@ -764,6 +768,7 @@ footer h2 {
     margin-top: 1em;
   }
 
+  /* programs section */
   .programs-left {
     display: none;
   }
@@ -783,19 +788,27 @@ footer h2 {
     margin: .5em auto;
   }
 
+  /* classes section */
   .classes-card-body {
     margin-top: 1rem;
     transform: scale(.9);
   }
 
+  /*parent review section */
   .review-card {
     margin-top: 2em;
   }
 
+  /* teacher section */
   .profile-wrapper {
     transform: scale(.9);
   }
 
+  .profile-wrapper:hover {
+    transform: translateY(-1%);
+  }
+
+  /* Contacts section */
   .footer-nav {
     grid-template-columns: 1fr
   }
@@ -825,22 +838,6 @@ footer h2 {
   }
 }
 
-@media screen and (min-width: 557px) and (max-width: 878px) {
+@media screen and (min-width: 557px) and (max-width: 960px) {
 
-  nav .brand {
-    margin: 0 auto;
-  }
-
-  .hero {
-    height: 500px;
-    display: block;
-  }
-
-  .hero-right {
-    display: none;
-  }
-
-  .programs-left {
-    display: none;
-  }
 }
