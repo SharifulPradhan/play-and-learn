@@ -400,7 +400,7 @@ header {
 .goals-right {
   width: 25em;
   text-align: justify;
-  padding-right: .5em;
+  padding-right: 1em;
 }
 
 .vision-mission-right h2 {
@@ -761,7 +761,7 @@ footer h2 {
 
   .goals-right {
     margin-top: 1em;
-    width: 22em;
+    width: 20em;
   }
 
   .vision-mission-right h2 {
