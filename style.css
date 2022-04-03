@@ -799,6 +799,30 @@ footer h2 {
   .footer-nav {
     grid-template-columns: 1fr
   }
+
+  footer h1 {
+    text-align: center;
+  }
+  
+  footer h2 {
+    text-align: center;
+  }
+
+  .brand .socials {
+    justify-content: center;
+  }
+
+  .activities li {
+    margin-left: .5em;
+  }
+
+  .newsletter {
+    text-align: center;
+  }
+
+  .copyright {
+    font-size: .6em;
+  }
 }
 
 @media screen and (min-width: 557px) and (max-width: 878px) {
