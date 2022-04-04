@@ -5,7 +5,7 @@
 
 :hash: **About the project** :arrow_down:
 
-This is a practice project of my frontend development practice project series. Where I want to gain more experience in Website Design and UI/UX Design. While doing this project I have learned and gained some clear thoughts about :ballot_box_with_check:CSS position property, :ballot_box_with_check:CSS content properties and also sharpen my knowledge of :ballot_box_with_check:Responsive Website Designing.
+This is a practice project of my frontend development practice project series. Where I want to gain more experience in Website Design and UI/UX Design. While doing this project I have learned and gained some clear thoughts about :ballot_box_with_check:CSS position property, :ballot_box_with_check:CSS content properties and also sharpen my knowledge of :ballot_box_with_check:Responsive Website Designing and :ballot_box_with_check: Modern CSS technologies.
 
 :hash: **About the website** :arrow_down:
 
