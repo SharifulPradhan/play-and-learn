@@ -1,6 +1,7 @@
 # play-and-learn
 ### Frontend Development practice project #001 | "Only HTML and CSS. :no_entry_sign:No frameworks"
 
+Live Link:point_right: [Play and Learn](https://shariful-pradhan-hridoy.github.io/play-and-learn/)
 
 ## Table of contents
 
