@@ -30,24 +30,34 @@ This is basically a school website where schools can use it as their portfolio a
 
 ### Screenshots
 
+#### Laptop View
+![](./screenshot.jpg)
+#### Tablet View
+![](./screenshot.jpg)
+#### Mobile View
+![](./screenshot.jpg)
 
 
 
 
 ## My Process
 
-
-
-
-
+### Built with
+- Semantic HTML5 markup
+- CSS custom properties
+- Modern CSS technologies
+- Mobile-first workflow
+- Flexbox
+- CSS Grid
+- CSS Animation
 
 ### Tools I used
 - Visual studio code
-- pixlr.com // for design images. I edited this image
-![](/assets/images/vission-mission-image.png)
+- pixlr.com // for edit images.
 - Firefox developer tool
 - Figma
 
+###
 
 ## Asset Links
 
@@ -67,6 +77,19 @@ This is basically a school website where schools can use it as their portfolio a
 
 <a href='https://www.pexels.com/photo/person-holding-yellow-and-pink-lego-blocks-298825/'>Photo by Markus Spiske from Pexels</a>
 
+<a href='https://www.pexels.com/photo/person-holding-yellow-and-pink-lego-blocks-298825/'>Photo by Markus Spiske from Pexels</a>
 
 ### Color Palette
-
+```
+:root {
+  /* color palette */
+  --cyber-grape: #49306bff;
+  --cyber-grape-2: #635380ff;
+  --mountbatten-pink: #90708cff;
+  --celadon: #ace4aaff;
+  --almond: #e1cdb5ff;
+  --text-brand: #FF6666;
+  --bg-brand: #FF6666;
+  --link-text: #fff;
+  --text-gray: rgb(106, 106, 106);
+```
