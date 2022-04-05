@@ -318,7 +318,6 @@ header {
 .goals-content {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  place-items: center;
   color: var(--text-gray);
 }
 
@@ -340,6 +339,8 @@ header {
 .goals-right {
   width: 25em;
   text-align: justify;
+  border: 1px solid;
+  margin: 0 auto;
 }
 
 .vision-mission-right h2 {
@@ -363,46 +364,37 @@ header {
   position: relative;
 }
 
-.classroom {
-  width: 35rem;
-  height: 31rem;
-  position: absolute;
-  top: 29%;
-}
-
 .programs-wrapper {
-  display: flex;
-  height: 25em;
-}
-
-.programs-left {
-  flex: 1 0 20rem;
-}
-
-.programs-right {
-  width: 50em;
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding: 1em;
   background: #d0bbaa3a;
+  overflow: hidden;
 }
 
-.programs-right img {
-  width: 4em;
-  margin-right: 1em;
-}
-
-.programs-right .program-body {
+.program-body {
+  margin: 0 auto;
   width: 20em;
   display: flex;
   align-items: center;
 }
 
-.program-body h4 {
-  color: var(--text-brand);
+.program-body img {
+  width: 50px;
+  margin-right: 1em;
 }
 
-.program-body h4:hover {
+.program-content h4 {
+  color: var(--text-brand);
+  font-size: clamp(1.3rem, calc(0.80rem + 0.98vw), 1.50rem);
+}
+
+.program-content p {
+  font-size: clamp(0.9rem, calc(0.65rem + 0.49vw), 1.00rem);
+  padding-right: 10%;
+}
+
+.program-content h4:hover {
   color: var(--cyber-grape);
   cursor: pointer;
 }
@@ -686,9 +678,7 @@ footer h2 {
     display: block;
     }
   
-  .hero-left {
-    /* font-size: 1.5em; */
-  }
+  
   .hero-right {
     display: none;
   }
@@ -774,29 +764,23 @@ footer h2 {
   }
 
   /* programs section */
-  .programs-left {
-    display: none;
-  }
-
-  .classroom {
-    display: none;
-  }
-
-  .programs-right {
-    width: 100%;
-    display: grid;
+  
+  .programs-wrapper {
+    margin: 0 auto;
     grid-template-columns: 1fr;
-    font-size: .8em;
-  }
-
-  .program-body h4 {
-    font-size: 1.3em;
   }
 
   .program-body {
     margin: .5em auto;
+    color: var(--text-gray);
   }
 
+  .program-body img {
+    width: 45px;
+    margin-right: 1em;
+  }
+
+  
   /* classes section */
   .classes-card-body {
     margin-top: 1rem;
@@ -848,8 +832,6 @@ footer h2 {
     background: none;
   }
 
-  
-
   .hero-left {
     display: block;
 
@@ -859,11 +841,13 @@ footer h2 {
     display: none;
   }
 
-  .programs-left {
-    display: none;
+  .programs-wrapper {
+    margin: 0 auto;
+    grid-template-columns: 1fr;
+    font-size: .9em;
   }
 
-  .classroom {
-    display: none;
-  }
+  .program-body {
+    margin: .5em auto;
+  }  
 }
