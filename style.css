@@ -18,6 +18,7 @@
   --h1-ff: 'Grand Hotel', cursive;
 }
 
+
 /* Global
 -------------------------------------------------------*/
 img {
@@ -112,18 +113,6 @@ a:hover {
   transform: scale(1.1);
 }
 
-/* delete this styles after completed the project */
-.bg-test1 {
-  background: lime;
-}
-
-.bg-test2 {
-  background: lightseagreen;
-}
-
-.bg-test3 {
-  background: lightgray;
-}
 
 /* Navigation bar
 -------------------------------------------------------*/
@@ -195,7 +184,7 @@ header {
   animation: left-move 1s ease 500ms;
 }
 
-@keyframes  left-move {
+@keyframes left-move {
   0% {transform: translateX(-100%);}
   100% {transform: translateX(0%);}
 }
@@ -322,14 +311,12 @@ header {
   display: grid;
   grid-template-columns: 1fr 1fr;
   color: var(--text-gray);
-  border: 5px solid palegreen;
 }
 
 .goal-left {
   width: 20em;
   height: 100%;
   margin: 0 auto;
-  border: 1px solid saddlebrown;
 }
 
 .goal-left img {
@@ -344,7 +331,6 @@ header {
 
 .goals-right {
   text-align: justify;
-  border: 1px solid hotpink;
   margin: 0 auto;
   padding: 0 1em;
 }
@@ -461,6 +447,7 @@ header {
   color: var(--text-brand);
   font-weight: bolder;
 }
+
 
 /* Review Section
 -------------------------------------------------------*/
@@ -809,7 +796,7 @@ footer h2 {
 
   /* Contacts section */
   .footer-nav {
-    grid-template-columns: 1fr
+    grid-template-columns: 1fr;
   }
 
   footer h1 {
@@ -841,7 +828,6 @@ footer h2 {
   .hero {
     display: flex;
     flex-direction: column-reverse;
-    height: 100%;
     align-items: center;
     justify-content: center;
   }
@@ -867,6 +853,4 @@ footer h2 {
   .goals-right {
     margin-top: 2em;
   }
-
-  
 }
