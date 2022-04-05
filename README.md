@@ -29,15 +29,8 @@ This is basically a school website where schools can use it as their portfolio a
 
 ### Screenshots
 
-#### Laptop View
-![](./screenshot.jpg)
-#### Tablet View
-![](./screenshot.jpg)
-#### Mobile View
-![](./screenshot.jpg)
-
-
-
+#### Full Responsive
+![](./assets/images/project-mockup.jpg)
 
 ## :two: My Process
 
