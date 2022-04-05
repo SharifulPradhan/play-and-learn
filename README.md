@@ -1,6 +1,22 @@
 # play-and-learn
 ### Frontend Development practice project #001 | "Only HTML and CSS. :no_entry_sign:No frameworks"
 
+
+## Table of contents
+
+- [:one: Summary](#:one:-summary)
+  - [Screenshots](#screenshots)
+- [:two: My process](#:two:-my-process)
+  - [Built with](#built-with)
+  - [Tools I used](#tools-i-used)
+  - [What I learned](#what-i-learned)
+- [:three: Connect with me](#:three:-connect-with-me)
+- [:four: Acknowledgments](#:four:-acknowledgments)
+- [:five: Asset Links](#:five:-asset-links)
+    - [fonts](#fonts)
+    - [images and svgs](#images-and-svgs)
+    - [Color Palette](#color-palette)
+
 ## :one: Summary
 
 :hash: **About the project** :arrow_down:
@@ -10,22 +26,6 @@ This is a practice project of my frontend development practice project series. W
 :hash: **About the website** :arrow_down:
 
 This is basically a school website where schools can use it as their portfolio and sell their school programs and clients can get an overview of the school and book a class for their child.
-
-## Table of contents
-
-- [:one: Summary](#summary)
-  - [Screenshots](#screenshots)
-- [:two: My process](#my-process)
-  - [Built with](#built-with)
-  - [Tools I used](#tools-i-used)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-- [:three: Connect with me](#connect-with-me)
-- [:four: Acknowledgments](#acknowledgments)
-- [:five: Asset Links](#asset-links)
-    - [fonts](#fonts)
-    - [images and svgs](#images-and-svgs)
-    - [Color Palette](#color-palette)
 
 ### Screenshots
 
