@@ -5,20 +5,20 @@ Live Link:point_right: [Play and Learn](https://shariful-pradhan-hridoy.github.i
 
 ## Table of contents
 
-- [:one: Summary](#:one:-summary)
+- [:one: Summary](#summary)
   - [Screenshots](#screenshots)
-- [:two: My process](#:two:-my-process)
+- [:two: My process](#my-process)
   - [Built with](#built-with)
   - [Tools I used](#tools-i-used)
   - [What I learned](#what-i-learned)
-- [:three: Connect with me](#:three:-connect-with-me)
-- [:four: Acknowledgments](#:four:-acknowledgments)
-- [:five: Asset Links](#:five:-asset-links)
+- [:three: Connect with me](#connect-with-me)
+- [:four: Acknowledgments](#acknowledgments)
+- [:five: Asset Links](#asset-links)
     - [fonts](#fonts)
     - [images and svgs](#images-and-svgs)
     - [Color Palette](#color-palette)
-
-## :one: Summary
+## :one:
+## Summary
 
 :hash: **About the project** :arrow_down:
 
@@ -33,7 +33,8 @@ This is basically a school website where schools can use it as their portfolio a
 #### Full Responsive
 ![](./assets/images/project-mockup.jpg)
 
-## :two: My Process
+## :two: 
+## My Process
 
 ### Built with
 - Semantic HTML5 markup
@@ -52,19 +53,20 @@ This is basically a school website where schools can use it as their portfolio a
 
 ### What I Learned
 While doing this project I have learned and gained some clear thoughts about :ballot_box_with_check:CSS position property, :ballot_box_with_check:CSS content properties and also sharpen my knowledge of :ballot_box_with_check:Responsive Website Designing and :ballot_box_with_check: Modern CSS technologies. And also learned how to play with SVG files. Where I can select every part of it and make an animation. Also making it responsive was very tough because I am not using CSS frameworks. But using modern CSS it makes easy to make a responsive layout.
-
-## :three: Connect with me
+## :three: 
+## Connect with me
 
 - Website - [Shariful Pradhan Hridoy](https://shariful-pradhan-hridoy.netlify.com/)
 - Twitter - [@sharifulhridoy2](https://twitter.com/SharifulHridoy2)
 - LinkedIn - [@sharifulhridoy2](https://www.linkedin.com/in/sharifulhridoy2/)
 - Whatsapp - [+880 1785-018296](https://wa.me/8801785018296)
 - Medium - [@sharifulpradhanhridoy](https://sharifulpradhanhridoy.medium.com/)
-
-## :four: Acknowledgments
+## :four: 
+## Acknowledgments
 For Design knowledges I regularly follow Design Course and Kevin Powel YouTube channel.
 
-## :five: Asset Links
+## :five: 
+## Asset Links
 
 ### Fonts
 <a href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;600&family=Grand+Hotel&display=swap">Dosis</a>
