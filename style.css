@@ -322,11 +322,14 @@ header {
   display: grid;
   grid-template-columns: 1fr 1fr;
   color: var(--text-gray);
+  border: 5px solid palegreen;
 }
 
 .goal-left {
-  width: 25em;
+  width: 20em;
   height: 100%;
+  margin: 0 auto;
+  border: 1px solid saddlebrown;
 }
 
 .goal-left img {
@@ -340,10 +343,10 @@ header {
 }
 
 .goals-right {
-  width: 25em;
   text-align: justify;
-  border: 1px solid;
+  border: 1px solid hotpink;
   margin: 0 auto;
+  padding: 0 1em;
 }
 
 .vision-mission-right h2 {
@@ -591,7 +594,7 @@ footer h2 {
 .footer-nav {
   display: grid;
   justify-content: center;
-  grid-template-columns: repeat(auto-fit, minmax(min(100%, 20ch), 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 25ch), 1fr));
   gap: 1em;
 }
 
@@ -746,9 +749,12 @@ footer h2 {
   .goals-content {
     display: block;
   }
+  .goal-left {
+    width: 100%;
+  }
 
   .goal-left img{
-    width: 20em;
+    width: 100%;
     animation: image-move 3s linear 500ms infinite alternate;
   }
   
@@ -758,8 +764,7 @@ footer h2 {
   }
 
   .goals-right {
-    margin-top: 1em;
-    width: 20em;
+    margin-top: 2em;
   }
 
   .vision-mission-right h2 {
@@ -771,11 +776,13 @@ footer h2 {
   .programs-wrapper {
     margin: 0 auto;
     grid-template-columns: 1fr;
+    
   }
 
   .program-body {
     margin: .5em auto;
     color: var(--text-gray);
+    width: 100%;
   }
 
   .program-body img {
@@ -839,7 +846,6 @@ footer h2 {
     justify-content: center;
   }
 
-
   .hero-right img{
     width: 40%;
   }
@@ -852,5 +858,15 @@ footer h2 {
 
   .program-body {
     margin: .5em auto;
-  }  
+  }
+
+  .goals-content {
+    display: block;
+  }
+
+  .goals-right {
+    margin-top: 2em;
+  }
+
+  
 }
