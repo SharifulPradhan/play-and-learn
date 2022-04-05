@@ -173,9 +173,7 @@ nav ul li a:hover {
 -------------------------------------------------------*/
 header {
   position: relative;
-  z-index: -3;
   background: #84C6C8;
-  height: 600px;
 }
 
 #mobile-hero-image {
@@ -206,7 +204,12 @@ header {
   font-size: clamp(3.00rem, calc(2.12rem + 4.39vw), 5.25rem);
   line-height: 1.1;
   margin-bottom: .2em;
-}  
+}
+
+.hero-left p {
+  color: rgb(0, 0, 0);
+  text-shadow: 1px 1px rgb(193, 189, 189);
+}
 
 .hero-right {
   position: relative;
@@ -828,17 +831,17 @@ footer h2 {
 }
 
 @media screen and (min-width: 557px) and (max-width: 768px) {
-  header {
-    background: none;
+  .hero {
+    display: flex;
+    flex-direction: column-reverse;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
   }
 
-  .hero-left {
-    display: block;
 
-  }
-
-  .hero-right {
-    display: none;
+  .hero-right img{
+    width: 40%;
   }
 
   .programs-wrapper {
