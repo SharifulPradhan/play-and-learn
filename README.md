@@ -1,7 +1,7 @@
 # play-and-learn
 ### Frontend Development practice project #001 | "Only HTML and CSS. :no_entry_sign:No frameworks"
 
-## Summary
+## :one: Summary
 
 :hash: **About the project** :arrow_down:
 
@@ -13,17 +13,16 @@ This is basically a school website where schools can use it as their portfolio a
 
 ## Table of contents
 
-- [Summary](#summary)
+- [:one: Summary](#summary)
   - [Screenshots](#screenshots)
-- [My process](#my-process)
+- [:two: My process](#my-process)
   - [Built with](#built-with)
   - [Tools I used](#tools-i-used)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
-- [Asset Links](#asset-links)
+- [:three: Connect with me](#connect-with-me)
+- [:four: Acknowledgments](#acknowledgments)
+- [:five: Asset Links](#asset-links)
     - [fonts](#fonts)
     - [images and svgs](#images-and-svgs)
     - [Color Palette](#color-palette)
@@ -40,7 +39,7 @@ This is basically a school website where schools can use it as their portfolio a
 
 
 
-## My Process
+## :two: My Process
 
 ### Built with
 - Semantic HTML5 markup
@@ -57,14 +56,29 @@ This is basically a school website where schools can use it as their portfolio a
 - Firefox developer tool
 - Figma
 
-###
+### What I Learned
+While doing this project I have learned and gained some clear thoughts about :ballot_box_with_check:CSS position property, :ballot_box_with_check:CSS content properties and also sharpen my knowledge of :ballot_box_with_check:Responsive Website Designing and :ballot_box_with_check: Modern CSS technologies. And also learned how to play with SVG files. Where I can select every part of it and make an animation. Also making it responsive was very tough because I am not using CSS frameworks. But using modern CSS it makes easy to make a responsive layout.
 
-## Asset Links
+## :three: Connect with me
+
+- Website - [Shariful Pradhan Hridoy](https://shariful-pradhan-hridoy.netlify.com/)
+- Twitter - [@sharifulhridoy2](https://twitter.com/SharifulHridoy2)
+- LinkedIn - [@sharifulhridoy2](https://www.linkedin.com/in/sharifulhridoy2/)
+- Whatsapp - [+880 1785-018296](https://wa.me/8801785018296)
+- Medium - [@sharifulpradhanhridoy](https://sharifulpradhanhridoy.medium.com/)
+
+## :four: Acknowledgments
+For Design knowledges I regularly follow Design Course and Kevin Powel YouTube channel.
+
+## :five: Asset Links
 
 ### Fonts
 <a href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;600&family=Grand+Hotel&display=swap">Dosis</a>
 
 ### Images and SVGs
+
+<a href='https://www.pexels.com/photo/girl-holding-a-placard-8422001/'>Photo by Pavel Danilyuk from Pexels</a>
+
 <a href="https://www.freepik.com/photos/students-classroom">Students in classroom photo created by rawpixel.com - www.freepik.com</a>
 
 <a href='https://www.freepik.com/photos/kid-with-laptop'>Kid with laptop photo created by gpointstudio - www.freepik.com</a>
@@ -74,8 +88,6 @@ This is basically a school website where schools can use it as their portfolio a
 <a href='https://www.pexels.com/photo/children-painting-with-water-colors-8612967/'>Photo by Yan Krukov from Pexels</a>
 
 <a href='https://www.pexels.com/photo/children-s-team-building-on-green-grassland-296301/'>Photo by Lukas from Pexels</a>
-
-<a href='https://www.pexels.com/photo/person-holding-yellow-and-pink-lego-blocks-298825/'>Photo by Markus Spiske from Pexels</a>
 
 <a href='https://www.pexels.com/photo/person-holding-yellow-and-pink-lego-blocks-298825/'>Photo by Markus Spiske from Pexels</a>
 
